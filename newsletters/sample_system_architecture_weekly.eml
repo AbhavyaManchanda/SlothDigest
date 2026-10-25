@@ -1,0 +1,14 @@
+From: "Architecture Weekly" <digest@systemsweekly.org>
+To: reader@slothdigest.local
+Subject: Systems Digest: Zero-Copy Serialization & Distributed Consensus
+Date: Sun, 25 Oct 2026 09:30:00 +0000
+Content-Type: text/plain; charset=utf-8
+
+Welcome to Architecture Weekly Issue #142.
+
+Top Stories:
+1. Moving from JSON to FlatBuffers for High-Throughput Microservices:
+A deep dive into how teams eliminated deserialization bottlenecks, slashing CPU cycles by 40% in large-scale event processing pipelines.
+
+2. Raft vs Paxos in Edge Kubernetes:
+Exploring lightweight consensus algorithms adapted for flaky edge node networks with minimal memory footprints.
