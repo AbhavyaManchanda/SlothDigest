@@ -40,9 +40,17 @@ DIST_DIR = Path(__file__).resolve().parent.parent / "frontend" / "dist"
 
 @app.on_event("startup")
 async def on_startup():
-    init_db()
-    start_scheduler()
-    print("[SlothDigest] Ready at http://localhost:8000")
+    try:
+        init_db()
+    except Exception as e:
+        print(f"[SlothDigest] Database init warning: {e}")
+    
+    try:
+        start_scheduler()
+    except Exception as e:
+        print(f"[SlothDigest] Scheduler start warning: {e}")
+
+    print("[SlothDigest] Application successfully started at http://localhost:8000")
 
 @app.get("/api")
 def api_root():
