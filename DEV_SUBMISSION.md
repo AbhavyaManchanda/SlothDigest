@@ -1,13 +1,13 @@
 ---
 title: SlothDigest: The Zero-Effort Local RSS & Newsletter Curator (Hacktoberfest Week 3: Slow and Steady)
 published: true
-tags: hacktoberfest, devchallenge, ai, python
+tags: devchallenge, hf26challenge, ai, python
 canonical_url: https://github.com/AbhavyaManchanda/SlothDigest
 cover_image: https://raw.githubusercontent.com/AbhavyaManchanda/SlothDigest/main/docs/cover.png
 description: A local-first, privacy-respecting AI curator that ruthlessly drops marketing fluff from RSS feeds & newsletters, delivering a 1-minute audio briefing and 3-5 high-signal takeaways.
 ---
 
-*This article is a submission for the **Hacktoberfest 2026 Week 3 Challenge: Slow and Steady**.*
+*This is a submission for the [Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady](https://dev.to/challenges/hacktoberfest-week3-2026-10-19)*
 
 ---
 
@@ -141,3 +141,4 @@ The theme for **Hacktoberfest 2026 Week 3 is "Slow and Steady"**, and it speaks 
 ## 🤖 AI Disclosure
 
 SlothDigest was designed and developed with the assistance of agentic AI coding pairing (Gemini 3.8 Flash). The core application integrates local open-weight models (`llama3.1`) via Ollama for local-first inference.
+
